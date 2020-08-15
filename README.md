@@ -5,5 +5,5 @@
 
 A customizable button to request donations by ko-fi.
 
-![Screenshot](https://raw.githubusercontent.com/DeybisMelendez/godot-kofi-button/master/Captura%20de%20pantalla_2020-08-14_17-23-49.png)
-![Screenshot](https://raw.githubusercontent.com/DeybisMelendez/godot-kofi-button/master/vokoscreen-2020-08-14_17-06-30.gif)
+![Screenshot](screenshots/Captura%20de%20pantalla_2020-08-14_17-23-49.png)
+![Screenshot](screenshots/vokoscreen-2020-08-14_17-06-30.gif)
