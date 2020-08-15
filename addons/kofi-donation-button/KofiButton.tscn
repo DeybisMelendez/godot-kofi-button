@@ -4,7 +4,7 @@
 [ext_resource path="res://addons/kofi-donation-button/logo.png" type="Texture" id=2]
 [ext_resource path="res://addons/kofi-donation-button/KofiButton.gd" type="Script" id=3]
 
-[sub_resource type="StyleBoxFlat" id=3]
+[sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 1, 0.368627, 0.356863, 1 )
 corner_radius_top_left = 5
 corner_radius_top_right = 5
@@ -31,9 +31,9 @@ margin_right = 271.0
 margin_bottom = 32.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-custom_styles/hover = SubResource( 3 )
-custom_styles/pressed = SubResource( 3 )
-custom_styles/normal = SubResource( 3 )
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 1 )
+custom_styles/normal = SubResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -48,11 +48,6 @@ alignment = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="MarginContainer2" type="MarginContainer" parent="HBoxContainer"]
-margin_right = 6.0
-margin_bottom = 32.0
-rect_min_size = Vector2( 6, 0 )
 
 [node name="TextureRect" type="TextureRect" parent="HBoxContainer"]
 margin_left = 14.0
@@ -72,9 +67,3 @@ custom_fonts/font = SubResource( 2 )
 custom_colors/font_color = Color( 1, 0.92549, 0.92549, 1 )
 text = "Support me on Ko-fi"
 valign = 1
-
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer"]
-margin_left = 265.0
-margin_right = 271.0
-margin_bottom = 32.0
-rect_min_size = Vector2( 6, 0 )
